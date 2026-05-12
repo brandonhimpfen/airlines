@@ -1,5 +1,8 @@
 # Airlines Dataset
 
+[![Support Open Work](https://img.shields.io/badge/Support-Open%20Work-0A0A0A?style=flat&logo=github)](https://github.com/brandonhimpfen/support) 
+[![DOI](https://zenodo.org/badge/361875893.svg)](https://doi.org/10.5281/zenodo.20127510)
+
 A lightweight, reusable dataset of airline identifiers and airline names.
 
 This repository provides airline data in CSV, JSON, minified JSON, TSV, and plain text formats.
