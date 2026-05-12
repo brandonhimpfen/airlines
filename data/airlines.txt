@@ -1,4 +1,4 @@
-﻿OJSC AK BARS AERO
+OJSC AK BARS AERO
 Star Peru
 Air Burkina
 Aerogal
@@ -66,7 +66,7 @@ Lucky Air Co. Ltd.
 Myanmar Airways International
 Pacific Coastal Airlines Limited
 Onur Air
-TRIP Linhas A�reas S.A.
+TRIP Linhas Aéreas S.A.
 Air Tindi Ltd
 Afriqiyah Airways
 Wright Air Service
@@ -89,7 +89,7 @@ HOP!
 Georgian Airways
 American Airlines
 Air Berlin
-Abaet� Linhas A�reas
+Abaeté Linhas Aéreas
 Air Canada
 Azul Airlines
 Mandarin Airlines
@@ -127,7 +127,7 @@ Air Baltic Corporation
 Blue Panorama Airlines
 Caribbean Airlines
 Air Busan
-Rico Linhas A�reas
+Rico Linhas Aéreas
 CRONOSAIR
 Air China
 CM Airlines
@@ -254,7 +254,7 @@ Lion Air
 Jat Airways
 Bearskin Lake Air Services LP
 AirAsia Japan Co., Ltd.
-Air Turks 
+Air Turks
 Eurolot
 Taquan Air Services
 ALS Ltd
@@ -299,7 +299,7 @@ AeroMongolia
 Air Norway/North Flying
 Smart Aviation Company
 Kenmore Air
-Meta Linhas A�reas
+Meta Linhas Aéreas
 Marsland Aviation
 Motor Sich PJSC
 Air Madagascar
@@ -321,7 +321,7 @@ Maya Island Air
 NHT Linhas Aereas
 Air Vanuatu
 All Nippon Airways
-NHT Linhas A�reas
+NHT Linhas Aéreas
 Spirit Airlines
 Shaheen Air International
 Nile Air
@@ -409,7 +409,7 @@ SANSA Airlines
 Jet Lite
 Santa Barbara Airlines C.A.
 SATA International
-SETE Linhas A�reas
+SETE Linhas Aéreas
 S7 Airlines
 Starbow Airlines
 South African Airways
@@ -506,7 +506,7 @@ Air Bagan
 Rwandair Express
 Islena Airlines
 Wideroe
-Webjet Linhas A�reas
+Webjet Linhas Aéreas
 Air Labrador
 Windward Island Airways International
 Southwest Airlines
@@ -530,7 +530,7 @@ NAS AIR - National Air Services
 Volaris
 Golden Myanmar Airlines
 Airline Tajmyr
-Passaredo Linhas A�reas
+Passaredo Linhas Aéreas
 Kish Air
 Yamal Airlines
 Air Sunshine

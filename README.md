@@ -1,6 +1,68 @@
-Airlines
-========
+# Airlines Dataset
 
-[![Buy Me A Coffee](https://srv-cdn.himpfen.io/badges/buymeacoffee/buymeacoffee-flat.svg)](https://tinyurl.com/2h9aktmd) &nbsp; [![Ko-Fi](https://srv-cdn.himpfen.io/badges/kofi/kofi-flat.svg)](https://tinyurl.com/d4xnrptz) &nbsp; [![PayPal](https://srv-cdn.himpfen.io/badges/paypal/paypal-flat.svg)](https://tinyurl.com/mr22naua) &nbsp; [![Stripe](https://srv-cdn.himpfen.io/badges/stripe/stripe-flat.svg)](https://tinyurl.com/e8ymxdw3)
+A lightweight, reusable dataset of airline identifiers and airline names.
 
-List of 556 airlines' names and ID numbers in plain text, CSV, Excel and data file formats.
+This repository provides airline data in CSV, JSON, minified JSON, TSV, and plain text formats.
+
+## What is included
+
+- `data/airlines.csv` — canonical dataset
+- `data/airlines.json` — JSON export
+- `data/airlines.min.json` — compact JSON export
+- `data/airlines.tsv` — tab-separated export
+- `data/airlines.txt` — airline names only
+- `schema/airlines.schema.json` — JSON Schema for the dataset
+- `scripts/validate.py` — validation script
+- `docs/data-dictionary.md` — field definitions
+
+## Dataset status
+
+This release contains **555 airline records**.
+
+## Fields
+
+| Field | Description |
+|---|---|
+| `airline_id` | Original airline identifier from the source dataset. |
+| `name` | Airline name. |
+| `code_type` | `iata` for two-character codes, `legacy_or_icao_like` for longer legacy identifiers. |
+| `iata_code` | Two-character IATA-style code when applicable. |
+| `icao_code` | Three-character or legacy code when applicable. |
+| `country` | Airline country, blank until verified. |
+| `region` | Geographic region, blank until verified. |
+| `status` | Current known status. Defaults to `unknown`. |
+| `active` | Boolean active flag once verified. Blank while unknown. |
+| `website` | Official website once verified. |
+| `wikidata_id` | Wikidata identifier once verified. |
+| `notes` | Notes about import status, ambiguity, or enrichment. |
+
+## Usage
+
+```python
+import csv
+
+with open("data/airlines.csv", newline="", encoding="utf-8") as f:
+    airlines = list(csv.DictReader(f))
+
+print(airlines[0])
+```
+
+## Validate the dataset
+
+```bash
+python scripts/validate.py
+```
+
+Expected output:
+
+```text
+OK: validated 555 airline records
+```
+
+## License
+
+This dataset is released under the license included in this repository.
+
+## Citation
+
+Citation metadata is available in `CITATION.cff` and `.zenodo.json`.

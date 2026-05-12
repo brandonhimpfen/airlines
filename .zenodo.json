@@ -1,0 +1,27 @@
+{
+  "title": "Airlines Dataset",
+  "upload_type": "dataset",
+  "description": "A lightweight dataset of airline identifiers and airline names, provided in CSV, JSON, TSV, and plain text formats with schema and validation tooling.",
+  "creators": [
+    {
+      "name": "Himpfen, Brandon",
+      "affiliation": "Brandon Himpfen"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "airlines",
+    "aviation",
+    "dataset",
+    "open data"
+  ],
+  "version": "1.0.0",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/brandonhimpfen/airlines",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

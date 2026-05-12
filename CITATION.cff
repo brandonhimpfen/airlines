@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: Airlines Dataset
+message: If you use this dataset, please cite it using the metadata from this file.
+type: dataset
+authors:
+  - family-names: Himpfen
+    given-names: Brandon
+repository-code: https://github.com/brandonhimpfen/airlines
+license: MIT
+version: 1.0.0
+date-released: 2026-05-12
+abstract: A lightweight dataset of airline identifiers and airline names, provided in CSV, JSON, TSV, and plain text formats with schema and validation tooling.
+keywords:
+  - airlines
+  - aviation
+  - dataset
+  - open-data

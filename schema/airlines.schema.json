@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/brandonhimpfen/airlines/schema/airlines.schema.json",
+  "title": "Airlines Dataset",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "airline_id",
+      "name",
+      "code_type",
+      "status"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "airline_id": {
+        "type": "string",
+        "minLength": 2,
+        "description": "Original airline identifier from the source dataset."
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "code_type": {
+        "type": "string",
+        "enum": [
+          "iata",
+          "legacy_or_icao_like"
+        ]
+      },
+      "iata_code": {
+        "type": "string"
+      },
+      "icao_code": {
+        "type": "string"
+      },
+      "country": {
+        "type": "string"
+      },
+      "region": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "active",
+          "inactive",
+          "defunct",
+          "merged",
+          "renamed",
+          "unknown"
+        ]
+      },
+      "active": {
+        "type": [
+          "boolean",
+          "string"
+        ],
+        "description": "Boolean once verified; blank while unknown."
+      },
+      "website": {
+        "type": "string"
+      },
+      "wikidata_id": {
+        "type": "string"
+      },
+      "notes": {
+        "type": "string"
+      }
+    }
+  }
+}
